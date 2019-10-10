@@ -1,0 +1,17 @@
+<style media="screen">
+
+body {font-family: arial, helvetica, sans-serif;
+      background-color: green;
+
+}
+
+div {background-image: url(img/sologris.png);
+     background-repeat: no-repeat;
+}
+
+#contenidor {background-image: none;
+            background-color: ;
+            width: 660px;
+            margin: 0 auto;
+
+              }
