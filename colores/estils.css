@@ -1,6 +1,4 @@
-body {
-  background-color: blue;
-}
+
 /* Movil verticales*/
 @media screen and (max-width:640px) and (orientation:portrait){
 
@@ -13,7 +11,7 @@ body {
 @media screen and (max-width:640px) and (orientation:landscape){
 
 body {
-  background-color: red;
+  background-color: yellow;
 }
 }
 
