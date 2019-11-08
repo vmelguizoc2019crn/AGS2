@@ -1,0 +1,42 @@
+body {
+  background-color: blue;
+}
+/* Movil verticales*/
+@media screen and (max-width:640px) and (orientation:portrait){
+
+body {
+  background-color: red;
+}
+}
+
+/* Movil apaisado */
+@media screen and (max-width:640px) and (orientation:landscape){
+
+body {
+  background-color: red;
+}
+}
+
+/* Tablets verticales*/
+@media screen and (min-width:641px) (and-width: 1200px) and (orientation:portrait){
+
+body {
+  background-color: green;
+}
+}
+
+/* Tablets apaisado */
+@media screen and (min-width:641px) (and-width: 1200px) and (orientation:landscape){
+
+body {
+  background-color: green;
+}
+}
+
+/* Escritorio */
+@media screen and (min-width:1200px){
+
+body {
+  background-color: yellow;
+}
+}
