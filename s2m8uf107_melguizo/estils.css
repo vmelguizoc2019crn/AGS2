@@ -10,7 +10,7 @@ body {
 }
 
 /* Movil apaisado */
-@media screen and (max-width:640px) and (orientation:landscape){
+@media screen and (min-width:641px) and (orientation:landscape){
 
 body {
   background-color: yellow;
@@ -18,7 +18,7 @@ body {
 }
 
 /* Tablets verticales*/
-@media screen and (min-width:641px) (and-width: 1200px) and (orientation:portrait){
+@media screen and (max-width:640px) (and-width: 1200px) and (orientation:portrait){
 
 body {
   background-color: green;
