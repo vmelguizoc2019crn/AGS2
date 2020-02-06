@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estils.css">
+    <title></title>
+  </head>
+  <body>
+
+<input type="color" name="" value="" id="color">
+
+    <div id="masteroftheuniverse">
+            <!-- Finestra Xat mostra -->
+            <div class="ejemplo" id="ejemplo">
+                  <div class="bocadillo dreta grande" id="esquerra">
+                  </div>
+
+                  <div class="bocadillo esquerra grande"  id="dreta">
+                  </div>
+            </div>
+
+            <!-- Selectors petits -->
+          <div class="contenedorsupremo" id="uno">
+            <div class="contenidor" id="default">
+              <div class="bocadillo dreta"></div>
+              <div class="bocadillo esquerra"></div>
+              <div class="circulo"></div>
+            </div>
+
+            <div class="contenidor" id="mono">
+              <div class="bocadillo dreta2"></div>
+              <div class="bocadillo esquerra2"></div>
+              <div class="circulo" id="mono"></div>
+            </div>
+
+            <div class="contenidor" id="dark">
+              <div class="bocadillo dreta3"></div>
+              <div class="bocadillo esquerra3"></div>
+              <div class="circulo" id="dark"></div>
+            </div>
+
+            <div class="contenidor" id="dark2">
+              <div class="bocadillo dreta"></div>
+              <div class="bocadillo esquerra"></div>
+              <div class="circulo"></div>
+              </div>
+            </div>
+
+            <!-- Boletes -->
+            <div class="slider">
+              <div class="bolitas">
+                <div id="ua" class="bola"></div>
+                <div id="dos" class="bola"></div>
+                <div id="tres" class="bola"></div>
+                <div id="cuatro" class="bola"></div>
+                <div id="cinco" class="bola"></div>
+                <div id="seis" class="bola"></div>
+                <div id="siete" class="bola"></div>
+                <div id="ocho" class="bola"></div>
+              </div>
+            </div>
+    </div>
+<script type="text/javascript">
+
+  var color=["red","black","green","blue","purple","yellow","orange"];
+
+    var bola=document.getElementsByClassName('bola');
+    bola[0].style.backgroundColor=color[0];
+    bola[1].style.backgroundColor=color[1];
+    bola[2].style.backgroundColor=color[2];
+    bola[3].style.backgroundColor=color[3];
+    bola[4].style.backgroundColor=color[4];
+    bola[5].style.backgroundColor=color[5];
+    bola[6].style.backgroundColor=color[6];
+
+
+document.getElementById('default').addEventListener('click',de);
+document.getElementById('mono').addEventListener('click',mo);
+document.getElementById('dark').addEventListener('click',da);
+document.getElementById('dark2').addEventListener('click',da2);
+
+
+function de(){
+  document.getElementById('ejemplo').style.backgroundColor="red";
+}
+function mo(){
+  document.getElementById('ejemplo').style.backgroundColor="black";
+}
+function da(){
+  document.getElementById('ejemplo').style.backgroundColor="green";
+}
+function da2(){
+  document.getElementById('ejemplo').style.backgroundColor="blue";
+}
+
+
+document.getElementById('ua').addEventListener('click',uar);
+document.getElementById('dos').addEventListener('click',dosr);
+document.getElementById('tres').addEventListener('click',tresr);
+document.getElementById('cuatro').addEventListener('click',cuatror);
+document.getElementById('cinco').addEventListener('click',cincor);
+document.getElementById('seis').addEventListener('click',seisr);
+document.getElementById('siete').addEventListener('click',sieter);
+
+function uar(){
+  document.getElementById('ejemplo').style.backgroundColor="red";
+  document.getElementById('default').style.backgroundColor="red";
+  document.getElementById('dreta').style.backgroundColor="cyan";
+
+  }
+
+  function dosr(){
+    document.getElementById('ejemplo').style.backgroundColor="black";
+    document.getElementById('mono').style.backgroundColor="black";
+    }
+  function tresr(){
+    document.getElementById('ejemplo').style.backgroundColor="green";
+    document.getElementById('').style.backgroundColor="green";
+      }
+  function cuatror(){
+    document.getElementById('ejemplo').style.backgroundColor="blue";
+    document.getElementById('').style.backgroundColor="blue";
+        }
+  function cincor(){
+    document.getElementById('ejemplo').style.backgroundColor="purple";
+    document.getElementById('').style.backgroundColor="purple";
+          }
+  function seisr(){
+    document.getElementById('ejemplo').style.backgroundColor="yellow";
+    document.getElementById('').style.backgroundColor="yellow";
+            }
+  function sieter(){
+    document.getElementById('ejemplo').style.backgroundColor="orange";
+    document.getElementById('').style.backgroundColor="orange";
+
+}
+
+document.getElementById('ejemplo').addEventListener('input',cambia);
+function cambia(){
+  document.getElementById('ejemplo').innerHTML="ejemplo"+nom.value;
+}
+
+
+
+
+
+
+
+
+
+/*
+var
+colorart=["red","black","green","blue","purple","yellow","orange"];
+var
+bolacolorart=document.getElementsByClassName('bola');
+for (var l=0; l<bolacolorart.length;l++){
+  bolacolorart[l].style.backgroundColor=colorart[l];
+
+  document.getElementById('ua').addEventListener('click',red);
+
+  function red(){
+    document.getElementById('ua').style.backgroundColor="red";
+  }
+
+/*
+
+    var chati=document.getElementsByClassName('chati');
+    var chatd=document.getElementsByClassName('chatd');
+
+/*
+    var bola=document.getElementsByClassName('bola')
+    for (var k=0; k<bola.length;k++){
+      bola[k].style.backgroundColor=color[k];
+    }
+
+document.getElementById('uno').addEventListener('click',red);
+
+function red(){               document.getElementsById('mono').style.backgroundColor="red";
+}
+
+*/
+
+</script>
+
+
+  </body>
+</html>

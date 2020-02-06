@@ -1,0 +1,192 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+#masteroftheuniverse {
+  width: 95%;
+   background:;
+   margin: 0 auto;
+}
+.contenidor{
+  background:red;
+  opacity: 80%;
+  width:11rem;
+  height:16rem;
+  padding-top:0.5rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  border-radius:17px;
+  float:left;
+  margin:12px;
+}
+
+.bocadillo{
+  background:#7BCECA;
+  width:80%;
+  height:1.9rem;
+  border-radius:12px 12px 0 12px;
+  position:relative;
+  margin:15px;
+  box-shadow:-3px 3px 0px #DDD;
+  clear:both;
+}
+
+.bocadillo:before{
+  content:"";
+  border-top:solid transparent 0.7rem;
+  border-right:solid transparent 0.7rem;
+  border-bottom:solid #7BCECA 0.7rem;
+  border-left:solid transparent 0.7rem;
+  position:relative;
+  float:right;
+  top:8px;
+  left:9px;
+  box-shadow:0px 3px 0px #DDD;
+}
+
+.esquerra{
+  transform:scale(0.6,1);
+  float:right;
+}
+
+.dreta{
+  transform:scale(-0.6,1);
+  background:white;
+}
+
+.dreta:before{
+  border-bottom:solid white 0.7rem;
+}
+.circulo{
+  width:2rem;
+  height:2rem;
+  border-radius:50%;
+  clear:both;
+  margin:0 auto;
+  margin-top:9rem;
+  border:solid 3px white;
+}
+
+.circulo:before{
+  content:"";
+  display:block;
+  width:1.6rem;
+  height:1.6rem;
+  background:white;
+  border-radius:50%;
+  margin:0 auto;
+  margin-top:0.18rem;
+}
+
+#mono{
+  background:black;
+  opacity: 80%;
+}
+
+.esquerra2{
+  transform:scale(1,1);
+  float:right;
+}
+
+.dreta2{
+  transform:scale(-1,1);
+  background:white;
+}
+
+.dreta2:before{
+  border-bottom:solid white 0.7rem;
+}
+
+#dark{
+  background: green;
+  opacity: 80%;
+}
+
+.esquerra3{
+  transform:scale(1,1);
+  float:right;
+}
+
+.dreta3{
+  transform:scale(-1,1);
+  background:white;
+}
+
+.dreta3:before{
+  border-bottom:solid white 0.7rem;
+}
+
+#dark2{
+  background:blue;
+  opacity: 80%;
+}
+
+.ejemplo{
+  padding-top:1px;
+  padding-left:20px;
+  padding-right:20px;
+  height:300px;
+  background-color:grey;
+}
+
+.grande{
+  margin-top:3rem;
+  margin-bottom:0px;
+  width:500px;
+  height:65px;
+  border-radius:22px 22px 0 22px;
+}
+
+.grande:before{
+  top:2.65rem;
+}
+
+.contenedorsupremo{
+ display:flex;
+ justify-content:center;
+
+}
+
+.slider {
+  width: 100%;
+  height: 15rem;
+  background-color: ;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.slider::-webkit-scrollbar{
+  display: none;
+}
+
+.bolitas{
+  width: 200%;
+  background: ;
+  height: 10rem;
+
+}
+
+.bola{
+  width:100px;
+  height:100px;
+  background-color:;
+  border-radius:50%;
+  margin: 5px 30px;
+  display: inline-block;
+}
+
+
+
+input [type=color]::-webkit-color+swatch-wrapper{
+  border-radius: 50%
+  padding: 0;
+}
+
+input[type=color]::-webkit-color-swatch{
+  border: none;
+  border-radius: 50%;
+}
