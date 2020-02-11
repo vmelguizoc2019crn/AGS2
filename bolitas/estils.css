@@ -193,6 +193,8 @@ background: linear-gradient(to right, rgba(247,237,52,1) 0%, rgba(247,237,52,1) 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ed34', endColorstr='#e73827', GradientType=1 )
 }
 
+
+
 input [type=color]::-webkit-color+swatch-wrapper{
   border-radius: 50%
   padding: 0;

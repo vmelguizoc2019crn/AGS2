@@ -49,7 +49,7 @@
             <!-- Boletes -->
             <div class="slider">
               <div class="bolitas">
-                <input type="color" name="" value="#0cf5a7" id="color">
+                <input type="color" name="" value="#0cf5a7" id="colour">
                 <div id="ua" class="bola"></div>
                 <div id="dos" class="bola"></div>
                 <div id="tres" class="bola"></div>
@@ -82,6 +82,7 @@ document.getElementById('dark').addEventListener('click',da);
 document.getElementById('dark2').addEventListener('click',da2);
 
 
+
 function de(){
   document.getElementById('ejemplo').style.backgroundColor="red";
 }
@@ -94,6 +95,7 @@ function da(){
 function da2(){
   document.getElementById('ejemplo').style.backgroundColor="blue";
 }
+
 
 
 document.getElementById('ua').addEventListener('click',uar);
@@ -140,6 +142,20 @@ function uar(){
 document.getElementById('ejemplo').addEventListener('input',cambia);
 function cambia(){
   document.getElementById('ejemplo').innerHTML="ejemplo"+nom.value;
+}
+
+document.getElementById('colour').addEventListener('input',canvi);
+function canvi(){
+  document.getElementById('ejemplo').style.backgroundColor=colour.value;
+}
+
+
+
+
+/*
+document.getElementById('').addEventListener('input'color);
+function color(){
+  document.getElementById('contenedorsupremo').style.backgroundColor=color.value;
 }
 
 
