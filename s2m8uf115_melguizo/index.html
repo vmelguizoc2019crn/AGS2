@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>LIMONES</title>
+  <style media="screen">
+* {
+  position: relative;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+    ul {
+      width: 960px;
+      margin: auto;
+    }
+
+    li {
+      height: 420px;
+      width: 180px;
+      margin: 4px;
+      display: block;
+      float: left;
+      padding: 2px;
+      background:repeating-linear-gradient(90deg, #ddd 0px, #ddd 4px, transparent 4px, transparent 8px),
+                 repeating-linear-gradient(#ddd 0px, #ddd 4px, transparent 4px, transparent 8px);
+    }
+
+    h1 {
+      border: 5px solid turquoise;
+      width: 100px;
+      height: 100px;
+      background:linear-gradient(135deg, navy, black);
+      background: ;
+      margin: 20px auto;
+      color: turquoise;
+      font-size: 72px;
+      line-height: 100px;
+
+    }
+
+    .desenfocar img{
+      -webkit-filter: blur(5px);
+    }
+
+    .gris img{
+      -webkit-filter: grayscale(80%);
+    }
+
+    .sombra img{
+      -webkit-filter: drop-shadow(6px 6px 6px orange);
+    }
+
+    .sepia img{
+      -webkit-filter: sepia(80%);
+    }
+
+    .iluminosidad img{
+      -webkit-filter: brightness(200%);
+    }
+
+    .contraste img{
+      -webkit-filter: contrast(500%);
+    }
+
+    .tono img{
+      -webkit-filter: hue-rotate(200000000000deg);
+    }
+
+    .invertido img{
+      -webkit-filter: invert(500%);
+    }
+
+    .saturado img{
+      -webkit-filter: saturate(200%);
+    }
+
+    .opacidad img{
+      -webkit-filter: opacity(50%);
+    }
+
+
+
+
+  </style>
+</head>
+<body>
+  <h1>Ps</h1>
+  <ul>
+    <li class="efectos desenfocar">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Desenfocar</h2>
+      <input type="range" min="0" max="100">
+      <p></p>
+    </li>
+    <li class="efectos gris">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Gris</h2>
+      <input type="range">
+      <p></p>
+    </li>
+    <li class="efectos sombra">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Sombra</h2>
+      <input type="range" min="0" max"20">
+      <p></p>
+    </li>
+    <li class="efectos sepia">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Sepia</h2>
+      <input type="range">
+      <p></p>
+    </li>
+    <li class="efectos iluminosidad">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>iluminosidad</h2>
+      <input type="range" min="0" max="1000">
+      <p></p>
+    </li>
+    <li class="efectos contraste">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Contraste</h2>
+      <input type="range" min="0" max="1000">
+      <p></p>
+    </li>
+    <li class="efectos tono">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Tono</h2>
+      <input type="range" min="0" max="360">
+      <p></p>
+    </li>
+    <li class="efectos invertido">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Invertido</h2>
+      <input type="range">
+      <p></p>
+    </li>
+    <li class="efectos saturado">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Saturado</h2>
+      <input type="range" min="0" max="1000">
+      <p></p>
+    </li>
+    <li class="efectos opacidad">
+      <img src="https://i.pinimg.com/originals/0e/06/a3/0e06a38545247f0e49e6f3568121141d.png" width="100%" alt="">
+      <h2>Opacidad</h2>
+      <input type="range">
+      <p></p>
+    </li>
+
+  </ul>
+
+<script type="text/javascript" src="imatge.js">
+</script>
+
+</body>
+</html>
