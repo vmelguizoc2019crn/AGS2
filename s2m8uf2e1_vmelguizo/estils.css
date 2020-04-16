@@ -1,0 +1,115 @@
+body {
+  min-width: 960px;
+  margin: 0 auto;
+  font-family: Helvetica, arial, sans-serif;
+  background-image: linear-gradient(to top right, ivory 50%, pink 50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenidor{
+  width:960px;
+  height:40px;
+  margin: 0 auto;
+  padding:0;
+}
+
+.cubo{
+  width: 300px;
+  height:200px;
+  background-color: red;
+  float:left;
+  margin: 40px 20px 20px 0px;
+}
+
+.rectangulo{
+  height: 40px;
+  width:300px;
+  position: relative;
+  top: 184px;
+  background-color: white;
+  }
+
+
+h1{
+  text-align: center;
+  font-size: 65px;
+  margin-bottom: 20px;
+  right: 20px;
+}
+
+
+p{
+ text-align: center;
+}
+
+.pulp{
+  background-image: url(img/pulp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.taxi{
+  background-image: url(img/taxi.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+  box-shadow: 5px 5px 5px;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.bond{
+  background-image: url(img/bond.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: green;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.ghost{
+  background-image: url(img/ghost.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: blue;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.bean{
+  background-image: url(img/bean.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lime;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.back{
+  background-image: url(img/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: cyan;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.rider{
+  background-image: url(img/rider.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.team{
+  background-image: url(img/team.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.break{
+  background-image: url(img/break.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 2px 1px;
+}
