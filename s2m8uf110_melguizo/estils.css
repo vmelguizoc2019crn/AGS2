@@ -1,0 +1,39 @@
+#cuadrado {
+  position: absolute;
+  left: 150px;
+  right: 200px;
+  height: 150px;
+  width: 100px;
+  background-color: red;
+  transform: 50px 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  float:left;
+  transform: rotate(-45deg);
+  transform-origin: 50px 100px;
+
+
+}
+
+#cuadrado1 {
+  position: absolute;
+  left: 150px;
+  right: 200px;
+  height: 150px;
+  width: 100px;
+  background-color: red;
+  transform-origin: 50px 100px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transform: rotate(45deg);
+}
+
+@@keyframes pulsades {
+  0%
+  25%
+  50%
+  75%
+  100%
+  
+
+}
